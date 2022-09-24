@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Alerta</name>
+   <name>Alerta_roja</name>
    <tag></tag>
    <elementGuidId>71723131-9fa4-4371-a545-a1b396baa934</elementGuidId>
    <selectorCollection>

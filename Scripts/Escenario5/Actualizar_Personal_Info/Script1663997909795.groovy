@@ -19,15 +19,32 @@ import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'Funciones.Entrar_a_web_app'()
 
-WebUI.click(findTestObject('Btn_Sign_in'))
+CustomKeywords.'Funciones.Log_in'()
+
+WebUI.click(findTestObject('Escenario5/Btn_My_Personal_Information'))
+
+WebUI.waitForElementPresent(findTestObject('Escenario5/Confirmacion_formulario_personal_info'), 30)
+
+WebUI.setText(findTestObject('Escenario5/Campo_First_name'), findTestData('AutomationPractice').getValue(5, 16))
+
+WebUI.setText(findTestObject('Escenario5/Campo_Last_name'), findTestData('AutomationPractice').getValue(5, 15))
+
+WebUI.selectOptionByLabel(findTestObject('Escenario5/Campo_DoB_Day'), findTestData('AutomationPractice').getValue(6, 1), 
+    false)
+
+WebUI.selectOptionByLabel(findTestObject('Escenario5/Campo_DoB_Month'), findTestData('AutomationPractice').getValue(6, 2), 
+    false)
+
+WebUI.selectOptionByLabel(findTestObject('Escenario5/Campo_DoB_Year'), findTestData('AutomationPractice').getValue(6, 3), 
+    false)
+
+WebUI.setText(findTestObject('Escenario5/Campo_current_password'), findTestData('AutomationPractice').getValue(4, 4))
+
+WebUI.click(findTestObject('Escenario5/Btn_Save'))
 
 WebUI.waitForPageLoad(30)
 
-WebUI.setText(findTestObject('Escenario2/Email'), findTestData('AutomationPractice').getValue(3, 1))
-
-WebUI.click(findTestObject('Escenario2/Btn_Create_an_account'))
-
-WebUI.verifyElementPresent(findTestObject('Escenario2/Alerta_roja'), 30)
+WebUI.waitForElementPresent(findTestObject('Escenario5/Alerta'), 30)
 
 WebUI.closeBrowser()
 

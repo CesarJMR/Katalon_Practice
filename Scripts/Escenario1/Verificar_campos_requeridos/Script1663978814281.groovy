@@ -43,7 +43,7 @@ WebUI.setText(findTestObject('Escenario1/txtbx_Message'), findTestData('Automati
 
 WebUI.click(findTestObject('Escenario1/btn_Send'))
 
-WebUI.verifyElementPresent(findTestObject('Escenario1/Alerta'), 30)
+WebUI.verifyElementPresent(findTestObject('Escenario1/Alerta_roja'), 30)
 
 WebUI.selectOptionByLabel(findTestObject('Escenario1/Subject_Heading'), findTestData('AutomationPractice').getValue(2, 5), 
     false)

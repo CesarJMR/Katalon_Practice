@@ -59,7 +59,7 @@ WebUI.setText(findTestObject('Escenario4/Campo_address_title'), findTestData('Au
 
 WebUI.click(findTestObject('Escenario4/Btn_Save'))
 
-WebUI.waitForElementPresent(findTestObject('Escenario4/Alerta'), 30)
+WebUI.waitForElementPresent(findTestObject('Escenario4/Alerta_roja'), 30)
 
 WebUI.closeBrowser()
 

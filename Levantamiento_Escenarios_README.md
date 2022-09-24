@@ -61,7 +61,7 @@ ID de la HU: 1234567
 ID del escenario de prueba: 1
 Versión: 1
 Título: Verificar funcionamiento del módulo para administrar la información personal del usuario.
-Cantidad de casos de prueba: 2
+Cantidad de casos de prueba: 4
 Importancia: Alto
 Descripción: con este escenario se probará la actualización de la información personal del usuario, mas que se deban completar los campos
 			 requeridos del formulario para actualizar la información personal del usuario. Se excluirá de la automatización, las pruebas con

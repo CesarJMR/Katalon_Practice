@@ -19,15 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'Funciones.Entrar_a_web_app'()
 
-WebUI.click(findTestObject('Btn_Sign_in'))
+CustomKeywords.'Funciones.Log_in'()
 
-WebUI.waitForPageLoad(30)
+WebUI.click(findTestObject('Escenario5/Btn_My_Personal_Information'))
 
-WebUI.setText(findTestObject('Escenario2/Email'), findTestData('AutomationPractice').getValue(3, 1))
+WebUI.waitForElementPresent(findTestObject('Escenario5/Confirmacion_formulario_personal_info'), 30)
 
-WebUI.click(findTestObject('Escenario2/Btn_Create_an_account'))
+WebUI.setText(findTestObject('Escenario5/Campo_Email'), findTestData('AutomationPractice').getValue(3, 4))
 
-WebUI.verifyElementPresent(findTestObject('Escenario2/Alerta_roja'), 30)
+WebUI.click(findTestObject('Escenario5/Btn_Save'))
+
+WebUI.verifyTextPresent(findTestData('AutomationPractice').getValue(6, 6), false)
 
 WebUI.closeBrowser()
 
