@@ -29,33 +29,49 @@ WebUI.click(findTestObject('Escenario4/Btn_Add_new_address'))
 
 WebUI.waitForPageLoad(30, FailureHandling.STOP_ON_FAILURE)
 
+WebUI.clearText(findTestObject('Escenario4/Campo_First_name'))
+
+WebUI.clearText(findTestObject('Escenario4/Campo_Last_name'))
+
 WebUI.click(findTestObject('Escenario4/Btn_Save'))
 
-WebUI.waitForElementPresent(findTestObject('Escenario4/Alerta'), 30)
+WebUI.waitForElementPresent(findTestObject('Escenario4/Alerta_roja'), 30)
+
+WebUI.setText(findTestObject('Escenario4/Campo_Last_name'), findTestData('AutomationPractice').getValue(5, 15))
+
+WebUI.click(findTestObject('Escenario4/Btn_Save'))
+
+WebUI.waitForElementPresent(findTestObject('Escenario4/Alerta_roja'), 30)
+
+WebUI.setText(findTestObject('Escenario4/Campo_First_name'), findTestData('AutomationPractice').getValue(5, 16))
+
+WebUI.click(findTestObject('Escenario4/Btn_Save'))
+
+WebUI.waitForElementPresent(findTestObject('Escenario4/Alerta_roja'), 30)
 
 WebUI.setText(findTestObject('Escenario4/Campo_Address'), findTestData('AutomationPractice').getValue(5, 4))
 
 WebUI.click(findTestObject('Escenario4/Btn_Save'))
 
-WebUI.waitForElementPresent(findTestObject('Escenario4/Alerta'), 30)
+WebUI.waitForElementPresent(findTestObject('Escenario4/Alerta_roja'), 30)
 
 WebUI.setText(findTestObject('Escenario4/Campo_City'), findTestData('AutomationPractice').getValue(5, 6))
 
 WebUI.click(findTestObject('Escenario4/Btn_Save'))
 
-WebUI.waitForElementPresent(findTestObject('Escenario4/Alerta'), 30)
+WebUI.waitForElementPresent(findTestObject('Escenario4/Alerta_roja'), 30)
 
 WebUI.setText(findTestObject('Escenario4/Campo_Mobile_phone'), findTestData('AutomationPractice').getValue(5, 11))
 
 WebUI.click(findTestObject('Escenario4/Btn_Save'))
 
-WebUI.waitForElementPresent(findTestObject('Escenario4/Alerta'), 30)
+WebUI.waitForElementPresent(findTestObject('Escenario4/Alerta_roja'), 30)
 
 WebUI.selectOptionByLabel(findTestObject('Escenario4/Campo_State'), findTestData('AutomationPractice').getValue(5, 7), false)
 
 WebUI.click(findTestObject('Escenario4/Btn_Save'))
 
-WebUI.waitForElementPresent(findTestObject('Escenario4/Alerta'), 30)
+WebUI.waitForElementPresent(findTestObject('Escenario4/Alerta_roja'), 30)
 
 WebUI.setText(findTestObject('Escenario4/Campo_Zip'), findTestData('AutomationPractice').getValue(5, 8))
 

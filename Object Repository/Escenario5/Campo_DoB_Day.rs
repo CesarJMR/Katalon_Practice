@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Alerta</name>
+   <name>Campo_DoB_Day</name>
    <tag></tag>
-   <elementGuidId>57567659-7173-429d-a87a-e603d5bdda29</elementGuidId>
+   <elementGuidId>97e893e6-90b4-4058-b7ac-12f5966ca42d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@class=&quot;alert alert-danger&quot;]</value>
+         <value>//*[@id=&quot;days&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

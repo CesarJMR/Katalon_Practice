@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Alerta</name>
+   <name>Btn_My_Personal_Information</name>
    <tag></tag>
-   <elementGuidId>ccd18277-dba2-4980-8bd5-366d88d96802</elementGuidId>
+   <elementGuidId>fef26ad1-74c7-41f1-b789-071516b0930b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@class=&quot;alert alert-danger&quot;]</value>
+         <value>//*[@class=&quot;myaccount-link-list&quot;]//*[@href=&quot;http://automationpractice.com/index.php?controller=identity&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
