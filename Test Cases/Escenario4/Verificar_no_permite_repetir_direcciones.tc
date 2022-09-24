@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verificar_no_permite_repetir_direcciones</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f3ef7a55-0af0-4e2a-baf0-a9e08d49b0b7</testCaseGuid>
+</TestCaseEntity>
