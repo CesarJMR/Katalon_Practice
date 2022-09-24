@@ -8,6 +8,45 @@
    <dataFileGUID>f9d3982d-f909-49fa-9e1a-1bac49b81c5a</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
+   <data>http%3A%2F%2Fautomationpractice.com%2Findex.php Invalid+email+address. cesar_711-95%40hotmail.com Authentication My+addresses</data>
+   <data>null The+message+cannot+be+blank. cesarjosemena%40outlook.com Create+an+account Your+addresses</data>
+   <data>null Esto+es+una+prueba cesarjosemenaoutlook.com Already+registered%3F ClaroDom</data>
+   <data>null Please+select+a+subject+from+the+list+provided.+ null 12345claro direccion</data>
+   <data>null Customer+service null An+account+using+this+email+address+has+already+been+registered.+Please+enter+a+valid+password+or+request+a+new+one.+ direccion2</data>
+   <data>null Webmaster null Title Merrit+Island</data>
+   <data>null For+any+question+about+a+product%2C+an+order null Please+enter+your+email+address+to+create+an+account. Florida</data>
+   <data>null If+a+technical+problem+occurs+on+this+website null Invalid+email+address. 12345</data>
+   <data>null Your+message+has+been+successfully+sent+to+our+team. null My+account United+States</data>
+   <data>null null null An+email+address+required. 0001112222</data>
+   <data>null null null Password+is+required. 3334445555</data>
+   <data>null null null claro1234 Esto+es+una+prueba</data>
+   <data>null null null Authentication+failed. Mi+direccion</data>
+   <data>null null null There+is+no+account+registered+for+this+email+address. Mi+direccion+2</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>URL</name>
+      <size>14</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>Contact_us</name>
+      <size>14</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>Email</name>
+      <size>14</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>3</columnIndex>
+      <name>Sign_in</name>
+      <size>14</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>4</columnIndex>
+      <name>My_Adresses</name>
+      <size>14</size>
+   </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
